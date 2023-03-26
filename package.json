@@ -1,6 +1,6 @@
 {
   "name": "jupyterlab-form-js",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "Jupyter Widget Library for @bpmn.io/form-js",
   "keywords": [
     "jupyter",

@@ -2,7 +2,7 @@ tasks:
   watch:
     shell: make watch
   dist:
-    shell: sh -c "npm run build:prod && python -m build"
+    shell: sh -c "npm run clean &&npm run build:prod && python -m build"
 
 condaConfigFile: conda.yaml
 artifactsDir: output
